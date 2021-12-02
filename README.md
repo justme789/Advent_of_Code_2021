@@ -5,11 +5,11 @@ As you may know Advent of Code has started and this year I've decided to show my
 My solutions are in no way shape or form the best, fastes, or cleanest solutions, but I think it'll be fun to look back at this next year and see what has changed.
 
 Since I will be using Java for all the puzzles I'll set down some ground rules and stuff I do before viewing the puzzle. 
-- Have the .java file created
-- Create Main method
-- Use the Scanner Library to use puzzle input in code
-- Store info in a list
-- A basic generic for loop that goes over that list
+- Create the .java file.
+- Create Main method.
+- Use the Scanner Library to use puzzle input in code.
+- Store values read by Scanner in a list.
+- Use basic generic for loop that goes over that list.
 Having this stuff set up shaves of 30ish seconds of the time needed and is reusable for most of the puzzles.
 
 I will also be walking you through my thought process, but please bare with me as my main focus is time and not fancy lambdas.
