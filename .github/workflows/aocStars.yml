@@ -17,7 +17,7 @@ jobs:
       - uses: joblo2213/aoc-badges-action@v3
         with:
           userid: 1539094                          # your user id, see setup on how to obtain
-          session: ${{ secrets.53616c7465645f5fb0b64fb27486ddec57546828f6784c8a9f7ecf4fbec678a7ce3cd1484b49cdb9243c370ab8907913 }}    # secret containing session code, see setup on how to obtain
+          session: ${{ secrets.AOC }}    # secret containing session code, see setup on how to obtain
           
 #         Optional inputs:
 #         
