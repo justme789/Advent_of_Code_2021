@@ -28,4 +28,10 @@ I will also be walking you through my thought process, but please bare with me a
     <td>1</td>
     <td>Basic for loop summation to check if the element n+1 is greater than element n. Then for part b, I just checked if n, n+1, n+2 > n+1, n+2, n+3. Then caught an IndexOutOfBoundsException to break the loop and print the result </td>
   </tr>
+  <tr>
+    <td>2</td>
+    <td>~7 mins</td>
+    <td>1</td>
+    <td>Again a basic for loop summation but this time i used string manipulation to get the up, down, forward directions, and the value associated with each vector </td>
+  </tr>
 </table>
