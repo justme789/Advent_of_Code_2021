@@ -1,4 +1,4 @@
-# Advent_of_Code_2021
+# Advent of Code 2021 Java Solutions
 
 As you may know Advent of Code has started and this year I've decided to show my solutions for the puzzles in Java.
 
@@ -26,6 +26,6 @@ I will also be walking you through my thought process, but please bare with me a
     <td>1</td>
     <td>~5 mins</td>
     <td>1</td>
-    <td>Basic for loop summation to check if the element n+1 is greater than element n. Then for part b, I just checked if n, n+1, n+2 > n+1, n+2, n+3. Then caught an IndexOutOfBoundsException to breake the loop and print the result </td>
+    <td>Basic for loop summation to check if the element n+1 is greater than element n. Then for part b, I just checked if n, n+1, n+2 > n+1, n+2, n+3. Then caught an IndexOutOfBoundsException to break the loop and print the result </td>
   </tr>
 </table>
