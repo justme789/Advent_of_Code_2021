@@ -14,7 +14,7 @@ Having this stuff set up shaves of 30ish seconds of the time needed and is reusa
 
 I will also be walking you through my thought process, but please bare with me as my main focus is time and not fancy lambdas.
 
-![](https://img.shields.io/badge/day%20📅-2-blue) ![](https://img.shields.io/badge/stars%20⭐-3-yellow)	![](https://img.shields.io/badge/days%20completed-1-red)
+![](https://img.shields.io/badge/day%20📅-3-blue) ![](https://img.shields.io/badge/stars%20⭐-5-yellow)	![](https://img.shields.io/badge/days%20completed-2-red)
 <table>
   <tr>
     <th>Puzzle No.</th>
@@ -27,5 +27,11 @@ I will also be walking you through my thought process, but please bare with me a
     <td>~5 mins</td>
     <td>1</td>
     <td>Basic for loop summation to check if the element n+1 is greater than element n. Then for part b, I just checked if n, n+1, n+2 > n+1, n+2, n+3. Then caught an IndexOutOfBoundsException to break the loop and print the result </td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>~7 mins</td>
+    <td>1</td>
+    <td>Again a basic for loop summation but this time i used string manipulation to get the up, down, forward directions, and the value associated with each vector </td>
   </tr>
 </table>
