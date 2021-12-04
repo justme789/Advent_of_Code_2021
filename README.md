@@ -14,7 +14,7 @@ Having this stuff set up shaves of 30ish seconds of the time needed and is reusa
 
 I will also be walking you through my thought process, but please bare with me as my main focus is time and not fancy lambdas.
 
-![](https://img.shields.io/badge/day%20📅-3-blue) ![](https://img.shields.io/badge/stars%20⭐-5-yellow)	![](https://img.shields.io/badge/days%20completed-2-red)
+![](https://img.shields.io/badge/day%20📅-4-blue) ![](https://img.shields.io/badge/stars%20⭐-6-yellow)	![](https://img.shields.io/badge/days%20completed-3-red)
 <table>
   <tr>
     <th>Puzzle No.</th>
@@ -33,5 +33,11 @@ I will also be walking you through my thought process, but please bare with me a
     <td>~7 mins</td>
     <td>1</td>
     <td>Again a basic for loop summation but this time i used string manipulation to get the up, down, forward directions, and the value associated with each vector </td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>~12 mins</td>
+    <td>1.5</td>
+    <td>The first part was pretty straightforward and was solved with 2 for loops. The second part was fine too but i just feel like there is a way smarter way to tackle it than using 3 for loops.  </td>
   </tr>
 </table>
