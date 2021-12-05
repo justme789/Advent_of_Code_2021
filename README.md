@@ -14,7 +14,7 @@ Having this stuff set up shaves of 30ish seconds of the time needed and is reusa
 
 I will also be walking you through my thought process, but please bare with me as my main focus is time and not fancy lambdas.
 
-![](https://img.shields.io/badge/day%20📅-4-blue) ![](https://img.shields.io/badge/stars%20⭐-6-yellow)	![](https://img.shields.io/badge/days%20completed-3-red)
+![](https://img.shields.io/badge/day%20📅-5-blue) ![](https://img.shields.io/badge/stars%20⭐-8-yellow)	![](https://img.shields.io/badge/days%20completed-4-red)
 <table>
   <tr>
     <th>Puzzle No.</th>
@@ -39,5 +39,11 @@ I will also be walking you through my thought process, but please bare with me a
     <td>~12 mins</td>
     <td>1.5</td>
     <td>The first part was pretty straightforward and was solved with 2 for loops. The second part was fine too but i just feel like there is a way smarter way to tackle it than using 3 for loops.  </td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>~35 mins</td>
+    <td>3</td>
+    <td>This question was not particularly difficult but it was time consuming. I feel that using a 3 dimensional array was not the smartest way to do this especially since it took me 30 mins to silve this. Also you might see 6 nested for loops, but they are of fixed size. Technically this is O(nm) where n is the number of bingo balls and m is the number of sheets </td>
   </tr>
 </table>
