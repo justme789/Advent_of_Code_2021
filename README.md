@@ -14,7 +14,7 @@ Having this stuff set up shaves of 30ish seconds of the time needed and is reusa
 
 I will also be walking you through my thought process, but please bare with me as my main focus is time and not fancy lambdas.
 
-![](https://img.shields.io/badge/day%20📅-6-blue) ![](https://img.shields.io/badge/stars%20⭐-10-yellow)	![](https://img.shields.io/badge/days%20completed-5-red)
+![](https://img.shields.io/badge/day%20📅-7-blue) ![](https://img.shields.io/badge/stars%20⭐-12-yellow)	![](https://img.shields.io/badge/days%20completed-6-red)
 <table>
   <tr>
     <th>Puzzle No.</th>
@@ -45,5 +45,16 @@ I will also be walking you through my thought process, but please bare with me a
     <td>~35 mins</td>
     <td>3</td>
     <td>This question was not particularly difficult but it was time consuming. I feel that using a 3 dimensional array was not the smartest way to do this especially since it took me 30 mins to silve this. Also you might see 6 nested for loops, but they are of fixed size. Technically this is O(nm) where n is the number of bingo balls and m is the number of sheets </td>
+    <tr>
+    <td>5</td>
+    <td>~15 mins</td>
+    <td>1</td>
+    <td>This puzzle was very straight forward and quite refreshisng. In both parts a and b i compared both the x and y values of both points to determine a starting point from which i was either going to incrmently or decrementaly cover the values that the line spans. </td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>~60 mins</td>
+    <td>4</td>
+    <td>This puzzle was mean and too simple it was kinda pretty. For part a i used a fairly simple for+while loop combo and that did the trick. Then part b shows up and im like "okay i will just change the days value from 80 to 256, that'll do the trick". Just to get stuck at day 210. Now given the way i solved part a was using a for loop i kept trying to make it smarter (maybe not covering the whole dataset at once). But nothing worked and ofcourse nothing shouldve worked given the size of the list at day 210. I kept playing around with different techniques and stuff then it hit me: just do it the same way you do it in your head no containers, nothing, just arithmetic and that did the trick.</td>
   </tr>
 </table>
