@@ -57,4 +57,16 @@ I will also be walking you through my thought process, but please bare with me a
     <td>4</td>
     <td>This puzzle was mean and too simple it was kinda pretty. For part a i used a fairly simple for+while loop combo and that did the trick. Then part b shows up and im like "okay i will just change the days value from 80 to 256, that'll do the trick". Just to get stuck at day 210. Now given the way i solved part a was using a for loop i kept trying to make it smarter (maybe not covering the whole dataset at once). But nothing worked and ofcourse nothing shouldve worked given the size of the list at day 210. I kept playing around with different techniques and stuff then it hit me: just do it the same way you do it in your head no containers, nothing, just arithmetic and that did the trick.</td>
   </tr>
+  <tr>
+    <td>7</td>
+    <td>~30 mins</td>
+    <td>1</td>
+    <td>I just assigned the max value to 2000 and looped over every number to find the best fuel cost </td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>~75 mins</td>
+    <td>3</td>
+    <td>I couldnt fully understand the question at first but once it made sense it turned out to be quite simple. I looked for patterns on number, so for example if a number contains 4 it has to be a 9, if a number contains 1 and 7 it can be a 0 or three but zero is 6 values long while 3 is 5 values long. Once i figured out the patterns for every number the next steps were comparing, decoding, and adding </td>
+  </tr>
 </table>
