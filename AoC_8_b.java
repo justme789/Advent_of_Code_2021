@@ -10,25 +10,26 @@ public class AoC_8_b {
 
         Scanner textfile = new Scanner(new File("aoc.txt"));
         while (textfile.hasNextLine()) {
-            String vals, numbs;
-            vals = numbs = "";
-            String one, four, seven;
-
-            one = four = seven = "";
+            String vals, numbs, one, four, seven;
+            vals = numbs = one = four = seven = "";
             ArrayList<String> list = new ArrayList<String>();
             String line = textfile.nextLine();
             list.add(line);
+
             for (int i = 0; i < list.size(); i++) {
                 numbs += list.get(i).substring(0, list.get(i).indexOf("|"));
                 vals += list.get(i).substring(list.get(i).indexOf("|") + 1, list.get(i).length());
             }
+
             String[] numbers = numbs.split(" ");
             String[] values = vals.split(" ");
             String[] cleanUp = Arrays.copyOfRange(values, 1, values.length);
             int[] decode = new int[numbers.length];
+
             for (int i = 0; i < decode.length; i++) {
                 decode[i] = -1;
             }
+
             for (int i = 0; i < numbers.length; i++) {
                 if (numbers[i].length() == 2) {
                     one = numbers[i];
@@ -46,6 +47,7 @@ public class AoC_8_b {
                     decode[i] = 8;
                 }
             }
+
             for (int i = 0; i < numbers.length; i++) {
                 if (decode[i] == -1) {
                     if (numbers[i].length() == 5) {
@@ -84,6 +86,7 @@ public class AoC_8_b {
                     }
                 }
             }
+            
             String result = "";
             for (int i = 0; i < cleanUp.length; i++) {
                 for (int j = (i / 4) * 10; j < ((i / 4) + 1) * 10; j++) {
