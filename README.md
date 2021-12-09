@@ -14,7 +14,7 @@ Having this stuff set up shaves of 30ish seconds of the time needed and is reusa
 
 I will also be walking you through my thought process, but please bare with me as my main focus is time and not fancy lambdas.
 
-![](https://img.shields.io/badge/day%20📅-9-blue) ![](https://img.shields.io/badge/stars%20⭐-16-yellow)	![](https://img.shields.io/badge/days%20completed-8-red)
+![](https://img.shields.io/badge/day%20📅-9-blue) ![](https://img.shields.io/badge/stars%20⭐-18-yellow)	![](https://img.shields.io/badge/days%20completed-9-red)
 <table>
   <tr>
     <th>Puzzle No.</th>
